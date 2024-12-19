@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecommerce Website</title>
-</head>
-<body>
-</html>
-
+    <title>Victor-Shop</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         /* Enhanced CSS styles for professionalism */
         body {
@@ -139,83 +135,12 @@
         .close:hover {
             background-color: #0e704f;
         }
-        /* General Styles */
-#contact {
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
-}
-
-.contact-header {
-    text-align: center;
-    color: #333333;
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-/* Form Input Styles */
-.form-input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    font-size: 1rem;
-    box-sizing: border-box;
-}
-
-.form-input:focus {
-    outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
-
-/* Button Styles */
-.button-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-
-.btn {
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.btn-submit {
-    background-color: #007bff;
-    color: #ffffff;
-}
-
-.btn-submit:hover {
-    background-color: #0056b3;
-}
-
-.btn-close {
-    background-color: #f44336;
-    color: #ffffff;
-}
-
-.btn-close:hover {
-    background-color: #d32f2f;
-}
-
     </style>
 </head>
 <body>
 <header>
     <a href="#home" class="logo-link">
-        <img src="c:\Users\PC\Downloads\Black and Blue Initials Creative Logo (1).png" alt="Logo" class="logo">
+        <img src="./image/logo.png" alt="Logo" class="logo">
     </a>
     <h1>Victor-Shop</h1>
     <nav>
@@ -231,57 +156,57 @@
 
 <section id="products" class="categories">
     <div class="category" onclick="addToCart('Apple iPhone 16 Pro', 'KSh146,000 – KSh161,000')">
-        <img src="c:\\Users\\PC\\Downloads\\Screenshot-2024-12-16-125008.jpg" alt="Apple iPhone 16 Pro">
+        <img src="./image/apple phone.jpg" alt="Apple iPhone 16 Pro">
         <h3>Apple iPhone 16 Pro</h3>
         <p class="price">KSh146,000 – KSh161,000</p>
         <button class="details-button">Order Now</button>
     </div>
 
     <div class="category" onclick="addToCart('Redmi 14C', 'KSh16,500.00')">
-        <img src="c:\\Users\\PC\\Downloads\\Screenshot_2024-12-16_122703-removebg-preview.jpg" alt="Redmi 14C">
+        <img src="./image/Redmi 14C 8GB 256GB.jpg" alt="Redmi 14C">
         <h3>Redmi 14C 8GB 256GB</h3>
         <p class="price">KSh16,500.00</p>
         <button class="details-button">Order Now</button>
     </div>
 
     <div class="category" onclick="addToCart('Samsung Galaxy S23', 'KSh120,000 – KSh135,000')">
-        <img src="c:\\Users\\PC\\Downloads\\Screenshot 2024-12-16 164033.jpg" alt="Samsung Galaxy S23">
+        <img src="./image/Samsung Galaxy S23.jpg" alt="Samsung Galaxy S23">
         <h3>Samsung Galaxy S23</h3>
         <p class="price">KSh120,000 – KSh135,000</p>
         <button class="details-button">Order Now</button>
     </div>
 
-    <div class="category" onclick="addToCart('OnePlus Nord CE 4 Lite, 256GB, 8GB RAM', 'KSh120,000 – KSh135,000')">
-        <img src="c:\Users\PC\Downloads\OnePlus-Nord-CE4-Lite-Super-Silver.jpg.webp" alt="OnePlus Nord CE 4 Lite, 256GB, 8GB RAM">
+    <div class="category" onclick="addToCart('OnePlus Nord CE 4 Lite', 'KSh120,000 – KSh135,000')">
+        <img src="./image/OnePlus Nord CE 4 Lite.webp" alt="OnePlus Nord CE 4 Lite, 256GB, 8GB RAM">
         <h3>OnePlus Nord CE 4 Lite, 256GB, 8GB RAM</h3>
         <p class="price">KSh34,000</p>
         <button class="details-button">Order Now</button>
     </div>
 
     
-    <div class="category" onclick="addToCart('OnePlus Nord CE 4 Lite, 256GB, 8GB RAM', 'KSh120,000 – KSh135,000')">
-        <img src="c:\Users\PC\Downloads\Redmi-13-Blue.jpg.webp" alt="OnePlus Nord CE 4 Lite, 256GB, 8GB RAM">
+    <div class="category" onclick="addToCart('Redmi 13 256GB, 8GB RAM', 'KSh120,000 – KSh135,000')">
+        <img src="./image/Redmi 13 256GB.webp" alt=">Redmi 13 256GB, 8GB RAM">
         <h3>Redmi 13 256GB, 8GB RAM</h3>
         <p class="price">KSh22,000.KSh20,499</p>
         <button class="details-button">Order Now</button>
     </div>
 
     <div class="category" onclick="addToCart('Modio M34', 'KSh14,000')">
-        <img src="c:\Users\PC\Downloads\Modio-M34.jpg.webp" alt="Modio M34">
+        <img src="./image/Modio-M34.jpg.webp" alt="Modio M34">
         <h3>Modio M34</h3>
         <p class="price">KSh14,000</p>
         <button class="details-button">Order Now</button>
     </div>    
     
     <div class="category" onclick="addToCart('Lenovo Tab M9 32GB, 3GB RAM', 'KSh16,999')">
-        <img src="c:\Users\PC\Downloads\Lenovo-Tab-M9-1.jpg (1).webp" alt="Lenovo Tab M9 32GB, 3GB RAM">
+        <img src="./image/Lenovo-Tab-M9-1.jpg (1).webp" alt="Lenovo Tab M9 32GB, 3GB RAM">
         <h3>Lenovo Tab M9 32GB, 3GB RAM</h3>
         <p class="price">KSh16,999</p>
         <button class="details-button">Order Now</button>
     </div> 
     
     <div class="category" onclick="addToCart('HP Pavilion 14-EK0013DX i3 12th Gen, 14-inch, 8GB RAM, 256GB SSD', 'KSh81,999')">
-        <img src="c:\Users\PC\Downloads\HP-Pavilion-14-EK0013DX-i3-12th-Gen-1.jpg.webp" alt="HP Pavilion 14-EK0013DX i3 12th Gen, 14-inch, 8GB RAM, 256GB SSD">
+        <img src="./image/HP-EliteBook-830-G5-Intel-Core-i5-8th-Gen-8GB-RAM-256GB-SSD.jpg" alt="HP Pavilion 14-EK0013DX i3 12th Gen, 14-inch, 8GB RAM, 256GB SSD">
         <h3>HP Pavilion 14-EK0013DX i3 12th Gen, 14-inch, 8GB RAM, 256GB SSD</h3>
         <p class="price">KSh81,999</p>
         <button class="details-button">Order Now</button>
@@ -348,21 +273,14 @@
     <h2 class="contact-header">Contact Us</h2>
     <form id="contact-form" onsubmit="sendContact(event)">
         <label for="name">Name:</label>
-        <input type="text" id="name" class="form-input" placeholder="Your Name" required>
-        
+        <input type="text" id="name" required>
         <label for="email">Email:</label>
-        <input type="email" id="email" class="form-input" placeholder="Your Email" required>
-        
+        <input type="email" id="email" required>
         <label for="message">Message:</label>
-        <textarea id="message" class="form-input" rows="4" placeholder="Write your message here..." required></textarea>
-        
-        <div class="button-container">
-            <button type="submit" class="btn btn-submit">Send Message</button>
-            <button class="btn btn-close" type="button" onclick="closeContact()">Close</button>
-        </div>
+        <textarea id="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+        <button class="close" type="button" onclick="closeContact()">Close</button>
     </form>
-</div>
-
 </div>
 
 <script>
